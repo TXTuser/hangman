@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html {
+    min-height: 100%;
+}
+
+* {
+    margin: 0;
+}
+
+img {
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.233);
+    border-radius: 1000px;
+    margin: 20px auto;
+    display: block;
+}
+
+body {
+    background-image: url('src/bg.jpg');
+    background-size: cover;
+}
+
+form {
+    width: 90%;
+    max-width: 550px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 75px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.233);
+    background-color: rgba(255, 255, 255, 0.550);
+    padding: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.vis {
+    width: 400px;
+    height: 400px;
+}
+
+.name {
+    font-size: 25px;
+    color: rgb(99, 99, 99);
+}
+
+input {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+#input {
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.233);
+    width: 75px;
+    height: 75px;
+
+}
+
+.secret-word {
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#shifr {
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#newgame,
+#checkbtn,
+#setting {
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 12px;
+    font-size: 20px;
+    color: rgba(49, 49, 49, 0.733);
+
+}
+
+#newgame:active,
+#checkbtn:active,
+#setting:active {
+    box-shadow: none;
+}
+
+#newgame {
+    width: 155px;
+}
+
+#setting {
+    width: 155px;
+}
+
+.btn-block {
+    margin-bottom: 25px;
+}
+
+.ul {
+    margin: 10px;
+}
